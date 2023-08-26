@@ -1990,14 +1990,7 @@ button.mfp-arrow {
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
 }
-.contact .item:hover:after {
-    opacity: 0;
-}
-.contact .item:hover h5,
-.contact .item:hover p,
-.contact .item:hover h5 .services .item:hover span {
-    color: #fff;
-}
+
 .contact .item:hover .numb {
     -webkit-text-stroke: 1px #fff
 }

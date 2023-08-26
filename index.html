@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>TOGO</title>
+    <title>NAUUT</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Oswald:wght@300;400;500;600&display=swap">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -20,70 +20,28 @@
 </head>
 
 <body>
-    <!-- Loader -->
+    <!-- Start Loader -->
     <div id="loader">
         <div class="loading">
             <div></div>
         </div>
     </div>
-    <!-- Sidebar -->
-    <div class="togo-fixed-sidebar togo-sidebar-left">
-        <div class="togo-header-container">
-            <!-- Logo -->
-            <div class="logo">
-                <h1><a href="index.html">TOGO<span>ARCHITECTURE</span></a></h1>
-            </div>
-            <!-- Burger menu -->
-            <div class="burger-menu">
-                <div class="line-menu line-half first-line"></div>
-                <div class="line-menu"></div>
-                <div class="line-menu line-half last-line"></div>
-            </div>
-            <!-- Navigation menu -->
-            <nav class="togo-menu-fixed">
-                <ul>
-                    <li class="current-menu"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="#">Pages</a>
-                        <ul>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="team.html">Team</a></li>
-                            <li><a href="team-details.html">Team Details</a></li>
-                            <li><a href="faq.html">Faqs</a></li>
-                            <li><a href="careers.html">Careers</a></li>
-                            <li><a href="404.html">404 Page</a></li>
-                            <li><a href="#">Other Pages</a>
-                                <ul>
-                                    <li><a href="services-page.html">Services Page</a></li>
-                                    <li><a href="projects-page.html">Project Page</a></li>
-                                    <li><a href="post.html">Post Page</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <!-- Menu social media -->
-            <div class="togo-menu-social-media">
-                <div class="social"> <a href="#"><i class="ti-facebook"></i></a> <a href="#"><i class="ti-twitter"></i></a> <a href="#"><i class="ti-instagram"></i></a> </div>
-                <div class="togo-menu-copyright">
-                    <p>© 2023 TOGO by <a href="#">DuruThemes</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- End Loader -->
+
+    <!-- Start Sidebar -->
+    <div class="togo-fixed-sidebar togo-sidebar-left" id="sidebar"></div>
+    <!-- End Sidebar -->
+
     <!-- Content -->
     <div class="togo-side-content">
+
         <!-- Lines -->
         <div class="content-lines-wrapper">
             <div class="content-lines-inner">
                 <div class="content-lines"></div>
             </div>
         </div>
+
         <!-- Header Slider -->
         <header class="header pos-re slider-fade">
             <div class="owl-carousel owl-theme">
@@ -107,7 +65,9 @@
                 </div>
             </div>
         </header>
+
     </div>
+
     <!-- jQuery -->
     <script src="assets/js/jquery-3.6.3.min.js"></script>
     <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
@@ -123,5 +83,8 @@
     <script src="assets/js/bootstrap.menu.js"></script>
     <script src="assets/js/smooth-scroll.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+
+    <!-- SHARED-JS-->
+    <script src="shared-components/sidebar.js"></script>
 </body>
 </html>
