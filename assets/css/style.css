@@ -53,7 +53,7 @@ body {
     color: #999;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #272727;
+    background-color: #1a1a1a;
 }
 p {
     font-family: 'Didact Gothic', sans-serif;
@@ -314,10 +314,10 @@ input[type="submit"] {
     background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-    background: #272727;
+    background: #1a1a1a;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #272727;
+    background: #1a1a1a;
 }
 
 
@@ -352,7 +352,7 @@ input[type="submit"] {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #272727;
+  background-color: #1a1a1a;
   z-index: 999999; }
 #loader .loading,
 #loader .loading > div {
@@ -791,7 +791,7 @@ input[type="submit"] {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #272727;
+    background: #1a1a1a;
     z-index: 1;
     -webkit-transition: all .4s;
     transition: all .4s;
@@ -1336,7 +1336,7 @@ button.mfp-arrow {
 .team .item .icon:hover {
     background: #fff;
     border: 1px solid #fff;
-    color: #272727;
+    color: #1a1a1a;
 }
 
 
@@ -1600,7 +1600,7 @@ button.mfp-arrow {
 /* ======= Clients style  ======= */
 .clients {
   padding: 20px 0;
-  background-color: #272727;
+  background-color: #1a1a1a;
 }
 .clients .owl-carousel {
   margin-bottom: -20px;
@@ -1786,7 +1786,7 @@ button.mfp-arrow {
 }
 .side-bar .tags li:hover,
 .side-bar .tags li a:hover {
-    background-color: #272727;
+    background-color: #1a1a1a;
 }
 
 
@@ -2001,7 +2001,7 @@ button.mfp-arrow {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #272727;
+    background: #1a1a1a;
     z-index: 1;
     -webkit-transition: all .4s;
     transition: all .4s;
@@ -2173,7 +2173,7 @@ button, input, textarea {
     margin-right: 5px;
 }
 .comming form button:hover {
-  background-color: #272727;
+  background-color: #1a1a1a;
   color: #fff;
 	outline: none;
 }
